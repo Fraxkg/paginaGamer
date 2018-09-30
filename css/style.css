@@ -77,6 +77,7 @@ max-width: 1170px;
 	margin:0 auto;
 	margin-top: 2%;
 	text-align: center;
+	position: relative;
 }
 .slider img{
 	width: 100%;
@@ -88,43 +89,51 @@ overflow:hidden;
 	margin: 0 auto;
 	flex-wrap: wrap;
 	display:flex;
-	justify-content: space-between;
+	justify-content: space-around;
+
 }
 
 .slider-2 img{
 	width: 100%;
+		margin-top: 50px;
+
 }
 
 .btn-card-show{
 	color:white;
 	text-align: center;
-	background-color: #FFB606;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: -10px;
-	margin-left:-50px;
-	width:100px;
-	height:20px;
+	
+	width:100%;
+	font-size: 40px;
 	display:block;
 	text-decoration: none;
 	position:absolute;
 	top:50%;
-	left:50%;
+	left:0%;
 	display: none;
 	
 }
-.btn-card-show:hover{
-	background-color: white;
-	
-}
 .slider:hover .btn-card-show{
+
 	
 	display: block;
 }
-.slider-2:hover .btn-card-show{
-	
-	display: block;
+.slider:hover img{
+	opacity: 0.3;
 }
+
+
+
+footer{
+	text-align: center;
+	color:#000;
+	font-size: 15px;
+	background-color: #009794;
+	padding-top:13px;
+	padding-bottom: 13px; 
+	margin-top:40px;
+}
+
 
 @media screen and (max-width: 1200px){
 	
