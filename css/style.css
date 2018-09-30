@@ -73,14 +73,57 @@ body{
 	border-bottom: 2px solid #987300;
 }
 .slider{
-
+max-width: 1170px;
 	margin:0 auto;
-	margin-top: 5%;
+	margin-top: 2%;
 	text-align: center;
 }
 .slider img{
 	width: 100%;
 	
+}
+.slider-2{
+overflow:hidden; 
+	max-width: 1170px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	display:flex;
+	justify-content: space-between;
+}
+
+.slider-2 img{
+	width: 100%;
+}
+
+.btn-card-show{
+	color:white;
+	text-align: center;
+	background-color: #FFB606;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	margin-left:-50px;
+	width:100px;
+	height:20px;
+	display:block;
+	text-decoration: none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	display: none;
+	
+}
+.btn-card-show:hover{
+	background-color: white;
+	
+}
+.slider:hover .btn-card-show{
+	
+	display: block;
+}
+.slider-2:hover .btn-card-show{
+	
+	display: block;
 }
 
 @media screen and (max-width: 1200px){
