@@ -122,8 +122,90 @@ overflow:hidden;
 	opacity: 0.3;
 }
 
+.title-section{
+	
+	font-size: 30px; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:white;
+	margin-left: 16px;
+}
+.conoce-nuestros-productos{
+	margin-left: -6%
+}
+.product{
+	display: flex;
+	justify-content: space-around;
+
+}
+.product input[type=text] {
+ 	width: 20%;
+ 	height: 40%;
+  padding: 5px;
+  margin-top: 40px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+.comentarios{
+	margin-left: 10%;
+}
+.contact .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.img-contact{
+	margin:0;
+	margin-right: 2%;
+}
+.img-contact img{
+	width:100%;
+	overflow: hidden;
+	border-radius: 10px;
+
+}
+.contact-form{
+	display:flex;
+	flex-direction: column;
+	padding: 0 20px 30px;
+	margin-left: 2%;
+	background-color:white;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-right: 2%;
+	margin-bottom: 5%;
+}
+.contact-form input[type="text"]{
+	display: block;
+}
+.form-control{
+
+	border-radius: 5px;
+	border: 3px solid #000;
+	font-size: 16px;
+	width: 100%;
+	margin:7px 0;
+	padding: 10 0px;
 
 
+}
+.contact-form h3{
+	margin-bottom: 0px;
+	color:#0c034d;
+}
+.btn-contact{
+	background-color:#B0810B;
+	font-size: 15px;
+	border-radius: 5px;
+	font-weight: 700;
+	color:black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.btn-contact:hover{
+	background-color: #8DABC2;
+}
 footer{
 	text-align: center;
 	color:#000;
@@ -154,18 +236,41 @@ footer{
 	margin-left: 10px;
 	margin-bottom: 0px;
 	padding-top: 10px;
-	padding-right:20px;
+	padding-right: 20px;
 	}
 	.main-menu{
 		order:3;
 	}
 	
 }
+@media screen and (max-width: 780px){
+		
+		.product input[type=text] {
+ 	position: absolute;
+
+	top:234px;
+	right: 0px;	
+	width: 180px;
+ 	height: 20px;
+}
+.contact .container{
+			display:flex;
+			flex-direction: column;
+		}
+}
 @media screen and (max-width: 480px){
 		
 		.main-menu ul li{
 	display: block;
 	padding-bottom: 5px;
+	
+}
+.product input[type=text] {
+ 	position: absolute;
 
+	top:365px;
+	right: 0px;	
+	width: 180px;
+ 	height: 20px;
 }
 }
