@@ -243,6 +243,7 @@ overflow:hidden;
 box-sizing: border-box;
 	margin: 2%;
 	    margin-left: 0px;
+
 	    position: relative;
 }
 .card-hero{
@@ -255,8 +256,13 @@ box-sizing: border-box;
 	
 }
 .card-title{
-	text-align: center;
+	text-align: left;
 	 margin-right: 30px;
+ 	margin-bottom: 0;
+}
+.card-body h2{
+	margin-top: 0px;
+	color:#CF6700;
 }
 .card-title::after{
 	content:'';
@@ -266,11 +272,12 @@ box-sizing: border-box;
 	display: block;
 	margin: 0 auto;
 	margin-top: 3%;
+	margin-left: 0;
 }
 .card-list{
 	color: #000;
 	list-style: none;
-	text-align: center;
+	text-align: left;
 	padding-left: 0;
 	 margin-right: 30px;
 }
@@ -287,6 +294,9 @@ box-sizing: border-box;
 	position: absolute;
 	top: 5%;
 	left: 5%;
+}
+.opciones{
+	    box-sizing: border-box;
 }
 footer{
 	text-align: center;
